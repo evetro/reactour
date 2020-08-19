@@ -153,8 +153,8 @@ export default function SvgMask({
           rx={rounded}
           width={width}
           height={height}
-          stroke={disableInteraction ? "none" : "#00c6ae"},
-          strokeWidth={4},
+          stroke={disableInteraction ? "none" : "#00c6ae"}
+          strokeWidth={4}
           pointerEvents={disableInteraction ? "auto" : "none"}
           fill="transparent"
           className={disableInteractionClassName}
