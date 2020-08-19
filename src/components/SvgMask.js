@@ -150,7 +150,7 @@ export default function SvgMask({
         <rect
           x={left}
           y={top}
-          rx={rounded},
+          rx={rounded}
           width={width}
           height={height}
           stroke={disableInteraction ? "none" : "#00c6ae"},
