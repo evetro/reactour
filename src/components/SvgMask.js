@@ -154,11 +154,13 @@ export default function SvgMask({
         <rect
           x={left}
           y={top}
+          rx={rounded}
           width={width}
           height={height}
-          pointerEvents="auto"
+          stroke={disableInteraction ? "none" : "#00c6ae"}
+          strokeWidth={4}
+          pointerEvents={disableInteraction ? "auto" : "none"}
           fill="transparent"
-          display={disableInteraction ? 'block' : 'none'}
           className={disableInteractionClassName}
         />
         {/* border */}
