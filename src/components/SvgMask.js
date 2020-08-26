@@ -175,6 +175,7 @@ export default function SvgMask({
             strokeWidth={highlightedBorder.width}
             stroke={highlightedBorder.color}
             rx={roundedRadius - 2}
+            className="highlightedBorder"
           />
         )}
       </svg>
