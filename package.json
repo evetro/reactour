@@ -75,9 +75,9 @@
     "webpack-dev-server": "3.9.0"
   },
   "peerDependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0",
-    "react-is": "^16.8",
+    "react": "^16.3.0 || ^17.0.0-0",
+    "react-dom": "^16.3.0 || ^17.0.0-0",
+    "react-is": "^16.8 || ^17.0.0-0",
     "styled-components": "^4.0.0 || ^5.0.0"
   },
   "dependencies": {
