@@ -87,7 +87,7 @@
     "lodash.debounce": "4.0.8",
     "lodash.pick": "4.4.0",
     "prop-types": "15.7.2",
-    "react-focus-lock": "2.2.1",
+    "react-focus-lock": "2.8.1",
     "scroll-smooth": "1.1.0",
     "scrollparent": "2.0.1"
   }
